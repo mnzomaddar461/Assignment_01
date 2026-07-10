@@ -133,6 +133,8 @@ body{
     text-align: center;
     font-weight: 400;
     line-height: 1.2;
+    max-width: 800px;
+    width: 100%;
 }
 
 .hero-button{
@@ -326,7 +328,8 @@ body{
 .pricing-cards{
     display: flex;
     justify-content: space-evenly;
-    width: 90%;
+    max-width: 1200px;
+    width: 100%;
     gap: 20px;
 }
 
