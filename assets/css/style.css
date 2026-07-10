@@ -217,3 +217,249 @@ body{
     line-height: 21px;
 }
 
+/* Pricing tabel */
+
+.outlin-button-left{
+    padding: 10px 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D4ED8;
+    background-color: none;
+    border: 1px solid #1D4ED8;
+    transition: 200ms;
+}
+
+.outlin-button-left:hover{
+    padding: 10px 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D4ED8;
+    background-color: #1d4fd830;
+    transition: 200ms;
+    box-shadow: 0px 2px 10px #1d4fd849;
+    border: 1px solid #1D4ED8;
+}
+
+
+.outlin-button-1{
+    padding: 10px 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    background-color: none;
+    border: 1px solid #000000;
+    transition: 200ms;
+}
+
+.outlin-button-1:hover{
+    padding: 10px 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D4ED8;
+    background-color: #1d4fd830;
+    transition: 200ms;
+    box-shadow: 0px 2px 10px #1d4fd849;
+    border: 1px solid #1D4ED8;
+}
+
+.common-button-pro{
+    padding: 10px 120px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #1D4ED8;
+    transition: 200ms;
+}
+
+.common-button-pro:hover{
+    padding: 10px 120px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D4ED8;
+    background-color: #1d4fd830;
+    transition: 200ms;
+    box-shadow: 0px 2px 10px #1d4fd849;
+}
+
+.secure-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 0px;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.secure-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0D1B2A;
+}
+
+.secure-sub-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #575757;
+    text-align: center;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    gap: 20px;
+}
+
+.price-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    border: 1px solid #5757573d;
+    border-radius: 10px;
+    width: 70%;
+    padding: 24px 24px;
+}
+
+.card-heard{
+    display: flex;
+    flex-direction: column;
+}
+
+.pakage-title{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #575757;
+    text-transform: uppercase;
+}
+
+.price-title{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0D1B2A;
+}
+
+.per-person{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #575757;
+}
+
+.future-list{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 0px 24px;
+}
+
+.futurs-of-pakage::marker{
+    color: #1D4ED8;
+}
+
+.future-list{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #333333;
+}
+
+.card-button{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+
+.divider{
+    width: 90%;
+    color: #1D4ED8;
+}
+
+/* pro card design  */
+
+.price-card-pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    border: 1px solid #5757573d;
+    border-radius: 10px;
+    width: 70%;
+    padding: 24px 24px;
+    background-color: #0d1b2a;
+}
+
+.card-heard-pro{
+    display: flex;
+    flex-direction: column;
+}
+
+.pakage-title-pro{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.price-title-pro{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.per-person-pro{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.future-list-pro{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 0px 24px;
+}
+
+.futurs-of-pakage-pro::marker{
+    color: #1D4ED8;
+}
+
+.future-list-pro{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.card-button-pro{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
