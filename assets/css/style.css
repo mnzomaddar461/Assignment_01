@@ -100,3 +100,120 @@ body{
     justify-content: flex-end;
 }
 
+/* Hero section */
+
+.container-hero{
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../images/hero-bg.png);
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 40px 0px;
+    justify-content: center;
+}
+
+.hero-title{
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -3.8px;
+}
+
+.hero-sub-text{
+    width: 50%;
+    color: #fff;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.hero-button{
+    margin-top: 150px;
+}
+
+/* Meet the Speakers */
+
+.thrid-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 50px;
+}
+
+.thrid-section-title{
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.speakers-cards{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #57575739;
+    transition: 200ms ease;
+}
+
+.speakers-cards:hover{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #57575739;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.256);
+    transform: translateY(-3px);
+}
+
+.speaker-img-con{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.speaker-info{
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sector{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -.3;
+    line-height: 18px;
+    color: #1D4ED8;
+}
+
+.speaker-name{
+    color: #0D1B2A;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+.designatio{
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
